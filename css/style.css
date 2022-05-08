@@ -6,13 +6,13 @@
 }
 @font-face {
   font-family: "yanone";
-  src: url("/fonts/YanoneKaffeesatz-VariableFont_wght.ttf");
+  src: url("/assets/fonts/YanoneKaffeesatz-VariableFont_wght.ttf");
   font-style: normal;
   font-weight: normal;
 }
 @font-face {
   font-family: "roboto_c";
-  src: url("/fonts/RobotoCondensed-Light.ttf");
+  src: url("/assets/fonts/RobotoCondensed-Light.ttf");
   font-style: normal;
   font-weight: normal;
 }
@@ -33,12 +33,15 @@ img {
   font-family: "yanone", sans-serif;
   font-size: 25px;
   text-align: center;
+  color: #000;
 }
 .text {
   font-family: "roboto_c", serif;
+  font-size: 18px;
 }
 .not-space {
   margin: 0px;
+  padding: 0px;
 }
 /* Publicaciones */
 .main {
@@ -109,7 +112,37 @@ img {
   width: 70px;
   height: 70px;
 }
-
+/* Formulario de contacto */
+.form-contact {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+}
+.form-contact .input-contact,
+.form-contact .textarea-contact {
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px solid #000;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0px 10px 0px;
+}
+.section-contact {
+  padding: 0px 10px;
+}
+.icon-contact {
+  width: 50px;
+}
+.submit-contact {
+  background-color: var(--secundary-color);
+  color: #000;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
 /* Efecto hover */
 @media (hover: hover) {
   .img-post:hover {

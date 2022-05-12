@@ -80,7 +80,6 @@ img {
   width: 50px;
   height: 50px;
 }
-
 .navbar {
   font-family: "yanone", monospace;
   background-color: var(--main-color);
@@ -98,7 +97,6 @@ img {
   background-color: #ccc;
   color: #000;
 }
-
 .aside {
   border: 3px solid #000;
   padding: 18px;
@@ -142,6 +140,27 @@ img {
   width: 100%;
   padding: 10px;
   margin-top: 10px;
+}
+#widget-time {
+  height: 50px;
+  font-family: "yanone", sans-serif;
+  font-size: 22px;
+  color: #ccc;
+  align-items: center;
+  overflow: hidden;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.day {
+  background-image: url(/assets/images/dia.webp);
+}
+.night {
+  background-image: url(/assets/images/noche.webp);
+}
+.time-hours {
+  display: flex;
+  justify-content: right;
 }
 /* Efecto hover */
 @media (hover: hover) {

@@ -21,10 +21,10 @@ function refresh(){
     document.getElementById("hours").innerHTML = hoursComplete;
 
     let id = document.getElementById("widget-time");
-    if(hours < 18){
+    if(hours < 19){
         id.classList.add("day");
     }
-    else if(hours >= 18){
+    else if(hours >= 19){
         id.classList.add("night");
     }
 }

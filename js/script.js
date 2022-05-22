@@ -3,7 +3,7 @@ function refresh(){
     // Script para mostrar la fecha
     const date = new Date();
     // Array de los meses del año
-    let month = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
+    let month = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
     // Array de los dias de la semana
     let day = ["Domingo", "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado"];
     // Formullación de el formato en el que se mostrara la fecha actual
@@ -21,10 +21,10 @@ function refresh(){
     document.getElementById("hours").innerHTML = hoursComplete;
 
     let id = document.getElementById("widget-time");
-    if(hours < 19){
+    if(hours < 20){
         id.classList.add("day");
     }
-    else if(hours >= 19){
+    else if(hours >= 20){
         id.classList.add("night");
     }
 }

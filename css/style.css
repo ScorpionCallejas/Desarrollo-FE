@@ -5,14 +5,14 @@
   --secundary-color-2: #ff1500;
 }
 @font-face {
-  font-family: "yanone";
-  src: url("/assets/fonts/YanoneKaffeesatz-VariableFont_wght.ttf");
+  font-family: "Roboto";
+  src: url("/assets/fonts/RobotoCondensed-Light.ttf");
   font-style: normal;
   font-weight: normal;
 }
 @font-face {
-  font-family: "roboto_c";
-  src: url("/assets/fonts/RobotoCondensed-Light.ttf");
+  font-family: "Arciform";
+  src: url("/assets/fonts/Arciform.otf");
   font-style: normal;
   font-weight: normal;
 }
@@ -30,22 +30,27 @@ body {
 img {
   width: 100%;
 }
+pre code {
+  color: var(--secundary-color);
+  text-shadow: #000 0px 0px 5px, #000 0px 0px 5px;
+}
 .title {
+  font-family: "Arciform", sans-serif;
   font-size: 30px;
   text-align: center;
-  color: var(--secundary-color-2);
+  color: var(--main-color);
 }
 .subtitle {
-  font-family: "yanone", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 25px;
   text-align: center;
-  color: #000;
+  color: var(--secundary-color-2);
 }
 .subtitle-post {
   text-align: left;
 }
 .text {
-  font-family: "roboto_c", serif;
+  font-family: "Roboto", serif;
   font-size: 18px;
 }
 .not-space {
@@ -115,7 +120,7 @@ img {
   height: 50px;
 }
 .navbar {
-  font-family: "yanone", monospace;
+  font-family: "Arciform", monospace;
   background-color: var(--main-color);
   color: #fff;
 }
@@ -149,6 +154,31 @@ img {
   width: 70px;
   height: 70px;
 }
+/* Widget de tiempo */
+#widget-time {
+  height: 50px;
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  color: #ccc;
+  align-items: center;
+  overflow: hidden;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.day {
+  background-image: url(/assets/images/dia.webp);
+}
+.night {
+  background-image: url(/assets/images/noche.webp);
+}
+.time-hours {
+  display: flex;
+  justify-content: right;
+}
+.night-mode {
+  background-color: rgb(240, 240, 240);
+}
 /* Formulario de contacto */
 .form-contact {
   width: 95%;
@@ -157,6 +187,7 @@ img {
   padding: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
   border-radius: 10px;
+  color: #000;
 }
 .form-contact .input-contact,
 .form-contact .textarea-contact {
@@ -179,27 +210,6 @@ img {
   width: 100%;
   padding: 10px;
   margin-top: 10px;
-}
-#widget-time {
-  height: 50px;
-  font-family: "yanone", sans-serif;
-  font-size: 22px;
-  color: #ccc;
-  align-items: center;
-  overflow: hidden;
-  margin: 0;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.day {
-  background-image: url(/assets/images/dia.webp);
-}
-.night {
-  background-image: url(/assets/images/noche.webp);
-}
-.time-hours {
-  display: flex;
-  justify-content: right;
 }
 /* Post */
 pre {

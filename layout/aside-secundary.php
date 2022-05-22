@@ -4,7 +4,7 @@
     <header>
       <h2 class="subtitle">Formulario de contacto</h2>
     </header>
-    <form action="" class="form-contact container text">
+    <form action="../mail.php" method="post" class="form-contact container text">
       <div class="row">
         <label for="name-contact" class="label-contact col-12">
           Nombre *
@@ -35,7 +35,7 @@
         </div>
       </div>
       <div class="row">
-        <label for="name-contact" class="label-contact col-12">
+        <label for="email-contact" class="label-contact col-12">
           Email *
         </label>
       </div>
@@ -58,14 +58,14 @@
           <input
             type="text"
             required
-            name="name-contact"
+            name="email-contact"
             class="input-contact"
           />
         </div>
       </div>
       <label for="message-contact">Asunto *</label>
       <textarea
-        name="message"
+        name="message-contact"
         required
         id=""
         rows="5"

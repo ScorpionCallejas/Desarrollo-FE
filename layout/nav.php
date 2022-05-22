@@ -1,6 +1,6 @@
 </head>
-<body>
-  <div class="container-fluid">
+<body class="night-mode">
+  <div class="container-fluid night-mode">
     <div class="row header-sticky">
       <header class="col-12 header">
         <nav class="navbar navbar-expand-md navbar-dark">
@@ -65,7 +65,7 @@
                       <a
                         class="dropdown-item"
                         href="mailto:scorpionmorales17@gmail.com?Subject=Hola,%20me%20gustaria%20sugerir%20un%20tema%20para%20el%20blog%20de%20desarrollo%20Front-end"
-                        >Sugiere un tema</a
+                        >Sugerir un tema</a
                       >
                     </li>
                   </ul>
@@ -99,5 +99,3 @@
         </nav>
       </header>
     </div>
-  </div>
-</body>

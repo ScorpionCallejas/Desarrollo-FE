@@ -6,14 +6,14 @@
 <!-- Contenido del main -->
 <section class="post_recents">
   <header class="row">
-    <p class="col-8 d-flex align-items-center subtitle">
+    <p class="col-8 d-flex align-items-center title">
       Publicaciones recientes
     </p>
   </header>
   <article class="card text-dark bg-light mb-3">
     <div class="row g-0">
       <div class="col-4">
-        <a href="/post/p-que_es_html.html" class="container-img">
+        <a href="/post-html/que-es-html.php" class="container-img">
           <img
             src="/assets/images/img-post/img-html.webp"
             class="img-fluid rounded-start img-post"
@@ -44,7 +44,7 @@
   <article class="card text-dark bg-light mb-3">
     <div class="row g-0">
       <div class="col-4">
-        <a href="/post/p-que_es_css.html" class="container-img">
+        <a href="/post-css/que-es-css.php" class="container-img">
           <img
             src="/assets/images/img-post/img-css.webp"
             class="img-fluid rounded-start img-post"
@@ -58,14 +58,11 @@
         </div>
         <div class="card-body">
           <p class="card-text text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
-            quam non. Accusantium impedit cumque vitae perferendis voluptates,
-            provident perspiciatis obcaecati voluptate, dicta error laudantium
-            corporis ipsum possimus, voluptatibus unde fuga.
+          CSS (Cascading Style Sheets) es lo que se denomina lenguaje de hojas de estilo en cascada y se usa para estilizar elementos escritos en un lenguaje de marcado como HTML. CSS separa el contenido de la representación visual del sitio.
           </p>
           <p class="card-text">
             <small class="text-muted">
-              Ultima modificación: 4:01pm - 12/05/2022
+              Ultima modificación: 8:02pm - 19/05/2022
             </small>
           </p>
         </div>
@@ -75,7 +72,7 @@
   <article class="card text-dark bg-light mb-3">
     <div class="row g-0">
       <div class="col-4">
-        <a href="/post/p-que_es_javascript.html" class="container-img">
+        <a href="/post-javascript/que-es-javascript.php" class="container-img">
           <img
             src="/assets/images/img-post/img-js.webp"
             class="img-fluid rounded-start img-post"
@@ -106,7 +103,7 @@
   <article class="card text-dark bg-light mb-3">
     <div class="row g-0">
       <div class="col-4">
-        <a href="/post/p-tags_html.html" class="container-img">
+        <a href="/post-html/etiquetas-de-html.php" class="container-img">
           <img
             src="/assets/images/img-post/tags-html.webp"
             class="img-fluid rounded-start img-post"
@@ -128,35 +125,6 @@
             <small class="text-muted">
               Ultima modificación: 6:25pm - 12/05/2022
             </small>
-          </p>
-        </div>
-      </div>
-    </div>
-  </article>
-  <article class="card text-dark bg-light mb-3">
-    <div class="row g-0">
-      <div class="col-4">
-        <a href="#" class="container-img">
-          <img
-            src="/assets/images/img-prueba.png"
-            class="img-fluid rounded-start img-post"
-            alt="..."
-          />
-        </a>
-      </div>
-      <div class="col-8">
-        <div class="card-header">
-          <h5 class="card-title">Card title</h5>
-        </div>
-        <div class="card-body">
-          <p class="card-text text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
-            quam non. Accusantium impedit cumque vitae perferendis voluptates,
-            provident perspiciatis obcaecati voluptate, dicta error laudantium
-            corporis ipsum possimus, voluptatibus unde fuga.
-          </p>
-          <p class="card-text">
-            <small class="text-muted"> Last updated 3 mins ago </small>
           </p>
         </div>
       </div>

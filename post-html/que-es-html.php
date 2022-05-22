@@ -9,7 +9,7 @@
 <p class="text">
     HTML (HyperText Markup Lenguage), como su nombre lo dice, html es un lenguaje de marcado de hipertexto, lo cual quiere decir que sirve de mucha utilidad al momento de trabajar de lado del navegador, ya que todos, sin excepción alguna, logran soportar este grandioso lenguaje. Pero te preguntaras, ¿Qué es lo que verdaderamente hace y porque es tan util su funcionamiento?, pues este se encarga de realizar la parte estructural de una página web, agregando así: <span class="bold"> Texto, Imagenes, Tablas, Formularios, etc</span>, justo lo que vemos al ingresar a sitios como Google, Wikipedia, YouTube, entre otras mas páginas que utilizamos atraves de nuestra navegación por la internet.
 </p>
-<p class="subtitle subtitle-post">Historia de HTML</p>
+<h2 class="subtitle subtitle-post">Historia de HTML</h2>
 <p class="text">
     Los inicios de HTML se deben a <a href="http://www.w3.org/People/Berners-Lee/" class="link">Tim Berners-Lee</a> cuando trabajaba en el CERN (Centro Europeo de Investigación Nuclear). Y es que estando como trabajador del CERN se encontró con la problemática de poder facilitar el acceso a la información con la que trabajaban desde cualquier ordenador del centro o de otras instituciones que trabajaban con ellos.<br>
     Buscaban una forma sencilla y estándar de acceder a toda la información. Es en ese momento cuando nace el protocolo HTTP (hypertext transfer protocol) y las páginas HTML.<br>
@@ -17,7 +17,7 @@
     Para la definición del estándar HTML, <a href="http://www.w3.org/People/Berners-Lee/" class="link">Tim Berners-Lee</a> se basó en el lenguaje de marcado SGML (Standard General Markup Language). Este lenguaje define reglas de etiquetado y estructura generales. A partir de SGML se han definido lenguajes como HTML, Postscript, RTF.<br>
     Tras tener el desarrollo del sistema de Hipertexto interno, Tim Berners-Lee lo presentó a una convocatoria para desarrollar el sistema Hipertexto en Internet junto con el ingeniero de sistemas <a href="http://public.web.cern.ch/public/en/people/Cailliau-en.html" class="link">Robert Cailliau</a>. La propuesta que presentaron la llamaron World Wide Web (W3).
 </p>
-<p class="subtitle subtitle-post">Funcionamiento</p>
+<h2 class="subtitle subtitle-post">Funcionamiento</h2>
 <p class="text">
     Este lenguaje tiene una sintaxis sencilla de aprender pero a la vez bastante completa ya que funciona con etiquetas de apertura(<code>&lt;&gt;</code>) y de cierre(<code>&lt;/&gt;</code>), las cuales a su vez pueden contener atributos y parametros, ya sea para cambiar su diseño, colocarle alguna funcionalidad en especifico, entre otras mas cosas que se pueden hacer con ello.<br>
     Esto nos a permitido:
@@ -31,7 +31,7 @@
 <p class="text">
     Como vez es lo suficientemente útil para nuestra vida digital y para el progreso de la humanidad en la era digital.
 </p>
-<p class="subtitle subtitle-post">Estructura básica</p>
+<h2 class="subtitle subtitle-post">Estructura básica</h2>
 <pre>
     <code>
 &lt;!DOCTYPE html&gt;

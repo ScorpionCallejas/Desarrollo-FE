@@ -10,7 +10,7 @@
   <article class="card text-dark bg-light mb-3">
     <div class="row g-0">
       <div class="col-4">
-        <a href="../post/que-es-css.php" class="container-img">
+        <a href="../post-css/que-es-css.php" class="container-img">
           <img
             src="/assets/images/img-post/img-css.webp"
             class="img-fluid rounded-start img-post"
@@ -24,10 +24,7 @@
         </div>
         <div class="card-body">
           <p class="card-text text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
-            quam non. Accusantium impedit cumque vitae perferendis voluptates,
-            provident perspiciatis obcaecati voluptate, dicta error laudantium
-            corporis ipsum possimus, voluptatibus unde fuga.
+            CSS (Cascading Style Sheets) es lo que se denomina lenguaje de hojas de estilo en cascada y se usa para estilizar elementos escritos en un lenguaje de marcado como HTML. CSS separa el contenido de la representación visual del sitio.
           </p>
           <p class="card-text">
             <small class="text-muted"> Tema: CSS </small>

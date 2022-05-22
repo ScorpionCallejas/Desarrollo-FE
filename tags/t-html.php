@@ -10,7 +10,7 @@
   <article class="card text-dark bg-light mb-3">
     <div class="row g-0">
       <div class="col-4">
-        <a href="/post/que-es-html.php" class="container-img">
+        <a href="/post-html/que-es-html.php" class="container-img">
           <img
             src="/assets/images/img-post/img-html.webp"
             class="img-fluid rounded-start img-post"
@@ -39,7 +39,7 @@
   <article class="card text-dark bg-light mb-3">
     <div class="row g-0">
       <div class="col-4">
-        <a href="/post/etiquetas-de-html.php" class="container-img">
+        <a href="/post-html/etiquetas-de-html.php" class="container-img">
           <img
             src="/assets/images/img-post/tags-html.webp"
             class="img-fluid rounded-start img-post"

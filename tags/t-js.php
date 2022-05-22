@@ -10,7 +10,7 @@
   <article class="card text-dark bg-light mb-3">
     <div class="row g-0">
       <div class="col-4">
-        <a href="/post/que-es-javascript.php" class="container-img">
+        <a href="/post-javascript/que-es-javascript.php" class="container-img">
           <img
             src="/assets/images/img-post/img-js.webp"
             class="img-fluid rounded-start img-post"
